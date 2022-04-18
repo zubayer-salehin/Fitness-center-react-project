@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
-import { useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
+import { useSendPasswordResetEmail, useSignInWithEmailAndPassword, useSignInWithGoogle } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import "./Loign.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const Login = () => {
     const [signInWithGoogle, user1] = useSignInWithGoogle(auth);
@@ -12,8 +14,8 @@ const Login = () => {
     const navigate = useNavigate();
     const location = useLocation();
     let from = location?.state?.from?.pathname || "/";
+    const [sendPasswordResetEmail] = useSendPasswordResetEmail(auth);
     let errorElement;
-
 
     if (user || user1) {
         navigate(from, { replace: true });
@@ -26,6 +28,16 @@ const Login = () => {
     const handleLogIn = event => {
         event.preventDefault();
         signInWithEmailAndPassword(email, password);
+    }
+
+    const resetPassword = async () => {
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Sent email');
+        }
+        else{
+            toast('please enter your email address');
+        }
     }
 
     return (
@@ -42,10 +54,12 @@ const Login = () => {
                         <span>OR</span>
                         <div></div>
                     </div>
-                    <button onClick={() => signInWithGoogle()} className='btn-google'>Continue With Google</button>
-                    <p>Already a member? <Link to="/register">Register</Link></p>
+                    <button onClick={() => signInWithGoogle()} className='btn-google mb-3'>Continue With Google</button>
+                    <p className='mt-0 mb-2'>Already a member? <Link to="/register">Register</Link></p>
+                    <p>Forget password? <button onClick={resetPassword} className='text-primary reset-btn'>Reset Password</button></p>
                 </form>
             </div>
+            <ToastContainer />
         </div>
     );
 };

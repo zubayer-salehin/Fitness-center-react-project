@@ -14,7 +14,7 @@ const Register = () => {
     const [signInWithGoogle,user1] = useSignInWithGoogle(auth);
     const navigate = useNavigate();
     const [
-        createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth);
+        createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth,{sendEmailVerification:true});
 
     if (user || user1) {
         navigate("/home");
