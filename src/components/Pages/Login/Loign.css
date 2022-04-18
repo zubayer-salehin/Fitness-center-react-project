@@ -1,0 +1,23 @@
+.login-page{
+    width:100vw;
+    height:432px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.separate{
+    display: flex;
+    align-items: center;
+    margin:15px 0px;
+}
+
+.separate span{
+    margin:0px 5px;
+}
+
+.separate div{
+    width:40%;
+    height: 2px;
+    background-color: #ddd;
+}

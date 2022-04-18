@@ -1,0 +1,33 @@
+.services-title{
+    position: relative;
+    font-size: 34px;
+    margin-bottom: 45px;
+    display: block;
+    text-align: center;
+    margin-top: 75px;
+    font-weight: 600;
+    color: #686868;
+}
+
+.services-title::after{
+    content: '';
+    background: rgb(255, 192, 0);
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.title-desc{
+    display: block;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.cardGroup{
+    gap:40px;
+    margin-bottom: 30px;
+}

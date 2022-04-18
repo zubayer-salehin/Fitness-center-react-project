@@ -1,0 +1,33 @@
+.order-now{
+   width:70%;
+   border: none;
+   padding:10px 25px;
+   background-color: #f36f21;
+   color:white;
+   font-weight: 500;
+   border-radius: 8px;
+   margin-bottom:5px;
+}
+
+.btn-get-started{
+    display: flex;
+    justify-content: center;
+}
+
+.single-service{
+    border: 1px solid #ddd !important;
+}
+
+.single-service:hover{
+    border: 1px solid #f36f21 !important;
+}
+
+.price{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+#name{
+    font-size:32px;
+}

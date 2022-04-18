@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "name": "Standard Plan",
+        "image":"http://malikhassan.com/html/fitness_center/html/images/gallery04.jpg",
+        "price":"$29",
+        "description":"Our Month plane Free Protein & Equipments,Free Training Session,Get Free Wifi,Gym,yoga,Gym fitness,yoga,4/24 hour support"
+    },
+    {
+        "id":2,
+        "name": "Personal Plan",
+        "image":"http://malikhassan.com/html/fitness_center/html/images/gallery02.jpg",
+        "price":"$350",
+        "description":"Our Month plane Gym, yoga, Gym fitness,Protein & Equipments,Free Training Session,Get Free Wifi,Running,Personal Coach,12/7 hour support"
+    },
+    {
+        "id":3,
+        "name": "Premium Plan",
+        "image":"http://malikhassan.com/html/fitness_center/html/images/gallery06.jpg",
+        "price":"$500",
+        "description":"Our Month plane Gym, yoga, Gym fitness,Protein & Equipments,Free Training Session,Get Free Wifi,Personal Coach,18/7 hour support"
+    },
+    {
+        "id":4,
+        "name": "Pro Plan",
+        "image":"http://malikhassan.com/html/fitness_center/html/images/gallery05.jpg",
+        "price":"$1000",
+        "description":"Our Month plane Gym, yoga, Gym fitness,Protein & Equipments,Free Training Session,Get Free Wifi,Personal Coach,12/7 hour support,Running,BodyBuilding"
+    }
+]

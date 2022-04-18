@@ -1,0 +1,35 @@
+.banner-picture img{
+    width:1349px;
+    height:calc(100vh - 62px);
+    object-fit:cover;
+}
+
+.positionSet{
+    left:9%;
+    top:20%;
+}
+
+.banner-title{
+   color:white;
+   font-size: 50px;
+}
+
+.banner-meaning-words{
+   color:#fff;
+   font-size: 35px;
+}
+
+.banner-desc{
+    color:#fff;
+    font-size:15px;
+    font-weight: 500;
+}
+
+.discover-more{
+    padding: 15px 30px;
+    background-color: #f36f21;
+    border: none;
+    border-radius: 4px;
+    color:white;
+    font-weight: 500;
+}
