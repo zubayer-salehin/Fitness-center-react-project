@@ -1,70 +1,17 @@
-# Getting Started with Create React App
+# Fitness Center
+***
+## Live Website Link : https://resplendent-licorice-8d631d.netlify.app/
+***
+### A list of work how make this website:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* Home page : First on the website,There is a homepage.There is a picture and some text in the homepage.When you scroll the website,A service section will appear.There are four services behind this section.The name of the service,picture,price,description have been tweaked.Clicking on the Get Stared button will take you to the Check Out Page.Services route click then show services section will appera.
 
-## Available Scripts
+* Check Out page : You Will not a login in this website,You will not go in this webiste.check Out page is protected and private page.Every user must be login and then go to the page.
 
-In the project directory, you can run:
+* Blogs page : There are three questions and answers in the blog page.The questions are Difference between authorization and authentication?, Why are you using firebase? What other options do you have to implement authentication?, What other services does firebase provide other than authentication?
 
-### `npm start`
+* About page : In the about page, what is your name? And how you will work hard to achieve your goal question answer in this page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* Register and Login page : In the Register page there are three input in this page email,password,confirmPassword,Register button and google singUp button.In the Login page there are two input in this page email,password,Login button and google singUp button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Error Message : If you go to a page other than the home,services,checkout,blogs,about page. it will show you an error message.
