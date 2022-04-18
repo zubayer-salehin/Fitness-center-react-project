@@ -1,5 +1,22 @@
-#signout-btn{
+#signout-btn {
     border: none;
     background-color: black;
-    color:white;
+    color: white;
+}
+
+
+@media (max-width: 576px) {
+    .centering {
+        text-align: center;
+    }
+
+    #signout-btn {
+        text-align: left;
+        margin-left: 12px;
+    }
+
+    .login {
+        text-align: left;
+        margin-left: 18px;
+    }
 }

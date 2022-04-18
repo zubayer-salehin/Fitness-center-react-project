@@ -19,7 +19,7 @@ const Header = () => {
                         src={Logo}
                         className="d-inline-block align-top"
                     />{' '}</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{background:"white"}}/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="mx-auto">
                             <Nav.Link className='ms-3 text-white' as={Link} to="/home">Home</Nav.Link>
@@ -28,8 +28,8 @@ const Header = () => {
                             <Nav.Link className='ms-3 text-white' as={Link} to="/blogs">Blogs</Nav.Link>
                             <Nav.Link className='ms-3 text-white' as={Link} to="/about">About Us</Nav.Link>
                         </Nav>
-                        <Nav>
-                            {user ? <button id="signout-btn" onClick={() => {signOut(auth)}}>Sign Out</button> : <Nav.Link className='text-white' as={Link} to="/login">Login</Nav.Link>}
+                        <Nav className="centering">
+                            {user ? <button id="signout-btn" onClick={() => {signOut(auth)}}>Sign Out</button> : <Nav.Link className='text-white login' as={Link} to="/login">Login</Nav.Link>}
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
